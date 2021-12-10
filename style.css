@@ -220,16 +220,19 @@ h1{
     
     .resturaunt .items{
         width: 250px;
-        margin: auto;
+        padding: auto;
         margin-bottom: 10px;
     }
 
     .rest_name{
         font-size: 15px;
+        margin: auto;
+        padding: auto;
     }
 
     .details{
         font-size: 10px;
+        margin: auto;
     }
 
     .signup{
