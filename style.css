@@ -203,7 +203,12 @@ h1{
         height: 47px;
     }
 
-    #days li{
+    #days, #days_bottom{
+        width: auto;
+        margin: auto;
+    }
+    
+    #days li, #days_bottom li{
         font-size: 10px;
     }
 
