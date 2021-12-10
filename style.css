@@ -201,9 +201,11 @@ h1{
     
     #tagline{
         height: 47px;
+        width: auto;
     }
 
     #days, #days_bottom{
+        padding:0;
         width: auto;
         margin: auto;
     }
@@ -219,7 +221,7 @@ h1{
     }
     
     .resturaunt .items{
-        width: 250px;
+        width: auto;
         padding: auto;
         margin-bottom: 10px;
     }
@@ -244,10 +246,10 @@ h1{
     }
     
     #signup_box input{
-        height: 40px;
+        height: auto;
     }
 
     .footer_img{
-        width: 350px;
+        width: auto;
     }
 }
