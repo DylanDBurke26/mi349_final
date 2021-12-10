@@ -197,7 +197,7 @@ h1{
 
 /* Media queries */
 
-@media (max-width: 400px) {
+@media (max-device-width: 400px) {
     @media (orientation: portrait){
     
         #tagline{
