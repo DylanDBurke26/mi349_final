@@ -1,5 +1,3 @@
-
-
 body{
     font-family: Arial, Helvetica, sans-serif;
     background-color: white;
@@ -46,8 +44,9 @@ h1{
 
 .resturaunt{
     display: flex;
-    flex-direction: column;
+    flex-wrap: wrap;
     align-items: center;
+    margin: auto;
 }
 
 .resturaunt .items{
@@ -59,6 +58,8 @@ h1{
     border: 1px solid #aaa;
     padding: 30px 10px;
     margin-bottom: 25px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .items{
@@ -106,7 +107,7 @@ h1{
     background-color: rgb(24,69,59);
     color: white;
     font-weight: 600;
-    margin: 0;
+    margin-top: auto;
     height: auto;
     margin-top: 100px;
     margin-bottom: 5px;
@@ -123,6 +124,7 @@ h1{
     margin: 4px 2px;
     margin-top: 15px;
     cursor: pointer;
+    height: auto;
 }
 
 /* CSS for Text Signup */
@@ -218,6 +220,8 @@ h1{
 
     .resturaunt{
         width: auto;
+        display: flex;
+        flex-direction: column;
     }
     
     .resturaunt .items{
@@ -253,3 +257,4 @@ h1{
         width: auto;
     }
 }
+
