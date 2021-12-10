@@ -197,61 +197,59 @@ h1{
 
 /* Media queries */
 
-@media (max-device-width: 400px) {
-    @media (orientation: portrait){
+@media (max-width: 400px){
     
-        #tagline{
-            height: 47px;
-            width: auto;
-        }
+    #tagline{
+        height: 47px;
+        width: auto;
+    }
+
+    #days, #days_bottom{
+        padding:0;
+        width: auto;
+        margin: auto;
+    }
     
-        #days, #days_bottom{
-            padding:0;
-            width: auto;
-            margin: auto;
-        }
-        
-        #days li, #days_bottom li{
-            font-size: 10px;
-            width: auto;
-            margin: auto
-        }
+    #days li, #days_bottom li{
+        font-size: 10px;
+        width: auto;
+        margin: auto
+    }
+
+    .resturaunt{
+        width: auto;
+    }
     
-        .resturaunt{
-            width: auto;
-        }
-        
-        .resturaunt .items{
-            width: auto;
-            padding: auto;
-            margin-bottom: 10px;
-        }
+    .resturaunt .items{
+        width: auto;
+        padding: auto;
+        margin-bottom: 10px;
+    }
+
+    .rest_name{
+        font-size: 15px;
+        margin: auto;
+        padding: auto;
+    }
+
+    .details{
+        font-size: 10px;
+        margin: auto;
+    }
+
+    .signup{
+        height: auto;
+    }
+
+    #signup_box{
+        width: 300px;
+    }
     
-        .rest_name{
-            font-size: 15px;
-            margin: auto;
-            padding: auto;
-        }
-    
-        .details{
-            font-size: 10px;
-            margin: auto;
-        }
-    
-        .signup{
-            height: auto;
-        }
-    
-        #signup_box{
-            width: 300px;
-        }
-        
-        #signup_box input{
-            height: auto;
-        }
-    
-        .footer_img{
-            width: auto;
-        }
+    #signup_box input{
+        height: auto;
+    }
+
+    .footer_img{
+        width: auto;
     }
 }
