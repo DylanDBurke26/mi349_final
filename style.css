@@ -210,14 +210,16 @@ h1{
     
     #days li, #days_bottom li{
         font-size: 10px;
+        width: auto;
+        margin: auto
     }
 
     .resturaunt{
-        width: 200px;
+        width: auto;
     }
     
     .resturaunt .items{
-        width: 300px;
+        width: 250px;
         margin: auto;
         margin-bottom: 10px;
     }
