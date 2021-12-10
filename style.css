@@ -197,7 +197,7 @@ h1{
 
 /* Media queries */
 
-@media (max-width: 375px){
+@media screen and (max-width: 375px){
     
     #tagline{
         height: 47px;
