@@ -1,3 +1,5 @@
+
+
 body{
     font-family: Arial, Helvetica, sans-serif;
     background-color: white;
@@ -5,7 +7,7 @@ body{
 }
 
 h1{
-    font-family: Gotham;
+    font-family: Gotham, sans-serif;
     font-size: 45px;
     text-align: center;
     background-color: rgb(24,69,59);
@@ -20,17 +22,24 @@ h1{
     height: 30px;
 }
 
-#days{
-    justify-content: center;
+#days, #days_bottom{
     display: flex;
+    justify-content: center;
 }
 
-#days li{
+#days li, #days_bottom li{
     display: flex;
     padding: 10px 5px;
     background-color: transparent;
     text-decoration: none;
     cursor: pointer;
+}
+
+.current_day{
+    background-color: rgb(24,69,59);
+    color: white;
+    text-decoration: none;
+    font-size: large;
 }
 
 /* CSS for each resturaunt */
@@ -64,7 +73,7 @@ h1{
 }
 
 .details{
-    font-family: Gotham;
+    font-family: Gotham, sans-serif;
     font-weight: 550;
     font-size: 17px;
     color: white;
@@ -91,7 +100,7 @@ h1{
 /* CSS for bottom of each page */
 
 .signup{
-    font-family: Gotham;
+    font-family: Gotham, sans-serif;
     font-size: 27px;
     text-align: center;
     background-color: rgb(24,69,59);
@@ -104,7 +113,7 @@ h1{
 }
 
 .signup a{
-    font-family: Gotham;
+    font-family: Gotham, sans-serif;
     background-color: rgb(24,69,59);
     text-decoration: underline;
     color: white;
@@ -121,7 +130,7 @@ h1{
 #signup_box{
     background-color: rgb(24,69,59);
     color: white;
-    font-family: Gotham;
+    font-family: Gotham, sans-serif, sans-serif;
     font-weight: 600;
     text-decoration: underline 2px;
     font-size: 30px;
@@ -145,9 +154,15 @@ h1{
     text-decoration: none;
 }
 
+#signup_box input{
+    margin-left: 10px;
+    height: 20px;
+    width: auto;
+}
+
 #sign_up_tag{
     text-align: center;
-    font-family: Gotham;
+    font-family: Gotham, sans-serif;
     font-weight: 900;
     text-decoration: none;
 }
@@ -164,7 +179,7 @@ h1{
 }
 
 #return a{
-    font-family: Gotham;
+    font-family: Gotham, sans-serif;
     font-size: 20px;
     color: white;
     text-decoration: none;
