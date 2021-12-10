@@ -1,0 +1,228 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+    margin: 0;
+}
+
+h1{
+    font-family: Gotham;
+    font-size: 45px;
+    text-align: center;
+    background-color: rgb(24,69,59);
+    color: white;
+    font-weight: 1000;
+    margin: 0;
+    height: 50px;
+}
+
+#tagline{
+    font-size: 20px;
+    height: 30px;
+}
+
+#days{
+    justify-content: center;
+    display: flex;
+}
+
+#days li{
+    display: flex;
+    padding: 10px 5px;
+    background-color: transparent;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* CSS for each resturaunt */
+
+.resturaunt{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.resturaunt .items{
+    background-color: rgb(24,69,59);
+    border-radius: 15px;
+    width: 600px;
+    text-align: left;
+    box-shadow: rgba(0,0,0, 0.3) 5px 5px 1px;
+    border: 1px solid #aaa;
+    padding: 30px 10px;
+    margin-bottom: 25px;
+}
+
+.items{
+    margin-bottom: 20px;
+}
+
+.rest_name{
+    color: white;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 900;
+}
+
+.details{
+    font-family: Gotham;
+    font-weight: 550;
+    font-size: 17px;
+    color: white;
+    margin-bottom: 7px;
+}
+
+.loc{
+    margin-top: 6px;
+    font-size: 12px;
+    text-align: center;
+    color: white;
+}
+
+.loc a{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.dir{
+    color: white;
+    text-decoration: none;
+}
+
+/* CSS for bottom of each page */
+
+.signup{
+    font-family: Gotham;
+    font-size: 27px;
+    text-align: center;
+    background-color: rgb(24,69,59);
+    color: white;
+    font-weight: 600;
+    margin: 0;
+    height: auto;
+    margin-top: 100px;
+    margin-bottom: 5px;
+}
+
+.signup a{
+    font-family: Gotham;
+    background-color: rgb(24,69,59);
+    text-decoration: underline;
+    color: white;
+    display: inline-block;
+    font-size: 27px;
+    font-weight: 600;
+    margin: 4px 2px;
+    margin-top: 15px;
+    cursor: pointer;
+}
+
+/* CSS for Text Signup */
+
+#signup_box{
+    background-color: rgb(24,69,59);
+    color: white;
+    font-family: Gotham;
+    font-weight: 600;
+    text-decoration: underline 2px;
+    font-size: 30px;
+    text-align: center;
+    border: 1px solid #aaa;
+    padding: 30px 10px;
+    margin: auto;
+    margin-top: 2%;
+    margin-bottom: 15px;
+    justify-content: center;
+    width: 400px;
+}
+
+#signup_box form{
+    text-align: left;
+    font-size: 21px;
+    padding-top: 5px;
+}
+
+#signup_box label{
+    text-decoration: none;
+}
+
+#sign_up_tag{
+    text-align: center;
+    font-family: Gotham;
+    font-weight: 900;
+    text-decoration: none;
+}
+
+#return {
+    text-align: center;
+    margin: auto;
+    width: 77px; 
+    margin-bottom: 5px;
+    background-color: rgb(24,69,59);
+    box-shadow: rgba(0,0,0, 0.3) 1px 1px 1px;
+    border: 1px solid #aaa;
+    margin-bottom: 8px;
+}
+
+#return a{
+    font-family: Gotham;
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+    font-weight: 800;
+}
+
+.footer_img{
+    width: 500px;
+    height: 300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+}
+
+/* Media queries */
+
+@media (max-width: 400px){
+    
+    #tagline{
+        height: 47px;
+    }
+
+    #days li{
+        font-size: 10px;
+    }
+
+    .resturaunt{
+        width: 200px;
+    }
+    
+    .resturaunt .items{
+        width: 300px;
+        margin: auto;
+        margin-bottom: 10px;
+    }
+
+    .rest_name{
+        font-size: 15px;
+    }
+
+    .details{
+        font-size: 10px;
+    }
+
+    .signup{
+        height: auto;
+    }
+
+    #signup_box{
+        width: 300px;
+    }
+    
+    #signup_box input{
+        height: 40px;
+    }
+
+    .footer_img{
+        width: 350px;
+    }
+}
