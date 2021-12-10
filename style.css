@@ -226,14 +226,12 @@ h1{
     
     .resturaunt .items{
         width: auto;
-        padding: auto;
         margin-bottom: 10px;
     }
 
     .rest_name{
         font-size: 15px;
         margin: auto;
-        padding: auto;
     }
 
     .details{
